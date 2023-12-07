@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .navber{
     display: flex;
     justify-content: center;
@@ -13,22 +15,26 @@ html{
     position: sticky;
     top: 0;
 }
+
 .navber ul{
     display: flex;
     list-style: none;
     margin:  30px 0px;
 }
+
 .navber ul li{
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 .navber ul li a{
     text-decoration: none;
     color: white;
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
 .navber ul li a:hover{
     border-color: white;
     color: rgb(5, 95, 107);
@@ -46,6 +52,7 @@ html{
     color: white;
 
 }
+
 #home::before{
     content: "";
     position: absolute;
@@ -58,6 +65,7 @@ html{
     opacity: .8;
 
 }
+
 .main{
     display: flex;
     flex-direction: column;
@@ -67,12 +75,14 @@ html{
     top: 30%;
     right: 10px;
 }
+
 .headings{
     font-family: century;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
 }
+
 .btn{
     padding: 10px 35px;
     background-color: transparent;
@@ -81,6 +91,7 @@ html{
     outline: none;
     transition: .6s ease;
 }
+
 .btn:hover{
     cursor: pointer;
     background-color: white;
@@ -97,19 +108,23 @@ html{
     padding: 20px;
     margin-bottom: 50px;
 }
+
 #pic{
     display: flex;
 }
+
 #pic img{
     width: 275px;
     height: 100px;
 }
+
 #intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 20px;
 }
+
 #intro h2{
     font-size: 3rem;
     margin-bottom: 20px;
@@ -124,12 +139,14 @@ html{
     align-items: center;
     padding: 20px;
  }
+
  .gallary{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
  }
+
  .gallary img{
     width: 400px;
     height: 240px;
@@ -142,12 +159,14 @@ html{
      flex-direction: column;
      padding: 20px;
  }
+
  .row{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
  }
+
  .box{
     display: flex;
     flex-direction: column;
@@ -163,12 +182,14 @@ html{
     background-size: 100% 200%;
     transition: all .8s;
  }
+
  .box:hover{
     background-position: left bottom;
     color: white;
     border: none;
     box-shadow: 0 0 20px rgb(255,45,45);
  }
+
 .box img{
     width: 100px;
     height: 100px;
@@ -185,6 +206,7 @@ html{
     color: white;
     padding: 20px;
 }
+
 .form{
     display: flex;
     flex-direction: column;
@@ -192,6 +214,7 @@ html{
     align-items: center;
     margin: 20px 0px;
 }
+
 .input{
     padding: 12px;
     margin: 15px;
@@ -199,6 +222,7 @@ html{
     border: none;
     outline: none;
 }
+
 #msg{
     width: 20%;
     padding: 10px;
@@ -206,6 +230,7 @@ html{
     border: none;
     outline: none;
 }
+
 #send{
     padding: 10px;
     width: 10%;
@@ -213,6 +238,7 @@ html{
     border: none;
     outline: none;
 }
+
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
